@@ -1,0 +1,41 @@
+# node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build output
+dist/
+.build/
+out/
+
+# env files
+.env
+.env.*.local
+
+# Vercel local config
+.vercel/
+.vercel/output
+
+# editor / OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# logs, coverage, cache
+coverage/
+*.log
+.cache/
+.cache-loader/
+
+# lockfiles (if you prefer to ignore one type uncomment)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
