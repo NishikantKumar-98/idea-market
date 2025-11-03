@@ -10,5 +10,6 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "cleanUrls": true
+  "cleanUrls": true,
+  "outputDirectory": "dist"
 }
